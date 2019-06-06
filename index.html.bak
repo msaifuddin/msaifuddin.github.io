@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Mohammad Saifuddin Sairin</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+    <meta name="author" content="msaifuddin">
+    <meta name="description" content="Mohammad Saifuddin Sairin's website">
+    <meta name="keywords" content="msaifuddin, mohammad saifuddin sairin, mohammad saifuddin, saifuddin.my, msaifuddin.com">
+    <meta name="google" content="notranslate">
+    <link rel='stylesheet prefetch' href='https://rawgit.com/kandebonfim/show-your-terms/master/dist/show-your-terms.min.css'>
+    <style>
+        body {
+            background-color: #7c7c7c;
+            color: #fff;
+            font-weight: lighter;
+            font-family: "Open Sans", Helvetica, sans-serif;
+            line-height: 1.4
+        }
+        
+        .container {
+            width: 500px;
+            height: 500px;
+            overflow: auto;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="showyourterms dark" data-title="sys@web: /var/www/saifuddin.my">
+            <div class="type" data-action="command" data-delay="800">whoami</div>
+            <div class="green" data-delay="800">Hey, I'm Saifuddin!</div>
+            <div class="type" data-action="command" data-delay="800">cat ~/.profiles</div>
+            <div class="yellow">Contact: hello@saifuddin.my</div>
+            <div class="yellow">PGP Key: https://keybase.io/msaifuddin/pgp_keys.asc</div>
+            <div class="yellow">CV: https://www.saifuddin.my/cv</div>
+            <div class="yellow">LinkedIn: https://linkedin.com/in/msaifuddin</div>
+            <div class="yellow">Facebook: https://fb.me/msaifuddin</div>
+            <div class="yellow">Twitter: https://twitter.com/msaifuddin</div>
+            <div class="yellow" data-delay="8000">Instagram: https://www.instagram.com/msaifuddins</div>
+            <div class="type" data-action="command" data-delay="3000">exit</div>
+            <div class="green" data-delay="8000">bye!</div>
+        </div>
+    </div>
+    <script src='https://rawgit.com/kandebonfim/show-your-terms/master/dist/show-your-terms.js'></script>
+    <script>
+        new ShowYourTerms('.showyourterms')
+    </script>
+    <!-- counter -->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter48946244 = new Ya.Metrika({
+                    id:48946244,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/48946244" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /counter -->
+</body>
+
+</html>
